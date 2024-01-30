@@ -1,0 +1,11 @@
+name: KitsPluginForMinecraft
+version: '1.0-SNAPSHOT'
+main: me.pandera.ua.kitsforminecraftserver.KitsPluginForMinecraft
+api-version: '1.20'
+authors: [ PandEra ]
+description: This plugin add /kit for Minecraft Server
+
+commands:
+  kit:
+    description: You can choose your profession and get tools for it
+    usage: /kit <profession>
